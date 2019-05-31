@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', 'Auth\LoginController@logout');
+Route::get('/fich','admin\FichController@pdf');
+Route::get('/a', function () {
+    return view('fich');
+});
+

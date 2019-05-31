@@ -79,8 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
-                </div>
+  Smmad                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
